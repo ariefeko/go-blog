@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
+	"github.com/ariefeko/go-blog/api/controllers"
+	"github.com/ariefeko/go-blog/api/seed"
 	"github.com/joho/godotenv"
-	"github.com/victorsteven/fullstack/api/controllers"
-	"github.com/victorsteven/fullstack/api/seed"
 )
 
 var server = controllers.Server{}
